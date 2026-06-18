@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="Quartz" Version="3.8.1" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Quartz\Jobs\" />
+	  <Folder Include="Quartz\Models\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Solution.Core.Domain\Solution.Core.Domain.csproj" />
+	  <ProjectReference Include="..\Solution.Core.Infrastructure\Solution.Core.Infrastructure.csproj" />
+	</ItemGroup>
+</Project>

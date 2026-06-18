@@ -1,0 +1,10 @@
+﻿global using Microsoft.Extensions.DependencyInjection;
+global using Quartz;
+global using Quartz.Spi;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.Hosting;
+global using Solution.Core.ParameterModel.QueryModel.Common;
+global using NLog;
+global using Solution.Core.ParameterModel.ChangeModel.Common;
+global using System.Data;
+global using static Solution.Core.EnumAndConstent.Enums.Enum;

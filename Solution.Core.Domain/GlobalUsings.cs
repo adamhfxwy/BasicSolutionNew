@@ -1,0 +1,12 @@
+﻿global using System.Linq.Expressions;
+global using Solution.Core.ParameterModel.QueryModel;
+global using static Solution.Core.EnumAndConstent.Enums.Enum;
+global using Solution.Core.EnumAndConstent.ValueObject;
+global using Solution.Core.EnumAndConstent;
+global using Solution.Core.Domain.ICommonService;
+global using Solution.Core.Domain.NpgSqlEntities.Common;
+global using Solution.Core.Domain.NpgSqlEntities.Identity;
+global using Solution.Core.CommonHelper;
+global using Solution.Core.DTO.Common;
+global using Solution.Core.ParameterModel.ChangeModel.Common;
+global using Solution.Core.ParameterModel.QueryModel.Common;

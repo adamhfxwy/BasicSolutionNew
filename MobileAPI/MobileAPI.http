@@ -1,0 +1,6 @@
+@Solution.Core.SmartParkMobileAPI_HostAddress = http://localhost:5004
+
+GET {{Solution.Core.SmartParkMobileAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
